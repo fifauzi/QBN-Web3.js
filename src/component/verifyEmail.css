@@ -1,10 +1,11 @@
 .verifyEmail {
     width: 90%;
     max-width: 500px;
-    box-shadow: 0px 0px 4px hsl(210, 12%, 75%);
+    box-shadow: 0px 0px 4px hsl(160, 81%, 33%);
     text-align: center;
+    border-radius: 10px;
     padding: 40px 20px;
-    background-color: hsl(210, 10%, 98%);
+    background-color: hsl(202, 22%, 73%);
   }
   
   .verifyEmail h1{
@@ -15,9 +16,14 @@
   .verifyEmail > p{
     line-height: 25px;
   }
-  
+  .button{
+    background-color: #7D9D9C;
+    border-radius: 10px;
+    border: hsl(157, 22%, 12%);
+    box-shadow: 0px 0px 4px hsl(224, 80%, 24%);
+  }
   .verifyEmail > span{
-    color: gray;
+    color: #7D9D9C;
   }
   
   .verifyEmail > button {

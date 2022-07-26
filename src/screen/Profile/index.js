@@ -2,7 +2,7 @@ import '../../component/profile.css';
 import { useAuthValue } from '../../routers/AuthContex';
 import { signOut } from 'firebase/auth';
 import { auth } from '../firebase';
-
+// import ParticleBackground from '../../component/ParticleBackground';
 function Profile() {
   const { currentUser } = useAuthValue();
 

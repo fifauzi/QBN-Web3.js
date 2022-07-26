@@ -46,7 +46,7 @@ function Register() {
   };
 
   return (
-    <div className="center">
+    <div id="bg" className="center">
       <div className="auth">
         <h1>Register</h1>
         {error && <div className="auth__error">{error}</div>}

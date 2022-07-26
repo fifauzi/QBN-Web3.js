@@ -1,5 +1,5 @@
 .center{
-  background-color: #231955;
+  background-color: #1E1E1E;
 }
 .button{
   background-color: #FFE5B4;
@@ -10,7 +10,8 @@
 .auth{
     width: 90%;
     max-width: 400px;
-    border: 1px solid #37da75;
+    border-radius: 20px;
+    border: 1px solid #4269E2;
     padding: 20px;
     text-align: center;
   }

@@ -11,6 +11,9 @@ import { AuthProvider } from '../src/routers/AuthContex';
 import PrivateRoute from '../src/routers/PrivateRoute';
 import { Store } from '../src/screen/Store';
 // import Navbar from './routers/Navbar';
+// import Home from "../src/screen/Home"
+import './App.css';
+// import ParticleBackground from './component/ParticleBackground';
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
